@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/all_music"
+            android:icon="@drawable/ic_message"
+            android:title="My Music"
+            >
+        </item>
+
+        <item
+            android:id="@+id/artists"
+            android:icon="@drawable/ic_message"
+            android:title="Artists"
+            >
+        </item>
+
+        <item
+            android:id="@+id/albums"
+            android:icon="@drawable/ic_message"
+            android:title="Albums"
+            >
+        </item>
+
+        <item
+            android:id="@+id/playlist"
+            android:icon="@drawable/ic_message"
+            android:title="Playlists"
+            >
+        </item>
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/settings"
+            android:title="Settings"
+            >
+        </item>
+
+    </group>
+
+
+</menu>
